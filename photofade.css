@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+    margin: 0 auto;
+}
+.pic {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: fade 24s infinite;
+}
+#pic1 {
+    animation-delay: 0s;
+    background-image: url(/Users/michaellunz/Desktop/WebDev/Maniac_Mansion_Logo.png);
+}
+#pic2 {
+    animation-delay: 8s;
+    backgroundimage: url(/Users/michaellunz/Desktop/WebDev/maxresdefault.jpeg)
+}
+#pic3 {
+    animation-delay: 16s;
+    background-image: url(/Users/michaellunz/Desktop/WebDev/monkey.jpeg);
+}
+#pic4 {
+    animation-delay: 24s;
+    background-image: url(/Users/michaellunz/Desktop/WebDev/lucasfilmgames.png);
+}
+@-webkit-keyframes fade {
+        0% {
+            opacity: 1;
+        }
+        20% {
+            opacity: 1;
+        }
+        34% {
+            opacity: 0;
+        }
+        88% {
+            opacity: 0;
+        }
+    }
+@keyframes fade {
+    0% { 
+        opacity: 1
+     }
+    35% {
+        opacity: 1;
+    }
+    72% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
